@@ -65,7 +65,7 @@ Recognize-only (no code, by design): Template Method, Facade, Adapter, Visitor �
 | 10 | [Connection / Object Pool](src/problems/extras/connectionpool/) | Semaphore, blocking acquire with timeout, health checks | ✅ |
 | 11 | [Pub-Sub / Message Queue](src/problems/extras/pubsub/) | Topics, consumer groups, offsets, at-least-once delivery | ✅ |
 | 12 | [Stock Exchange / Order Matching](src/problems/extras/stockexchange/) | Price-time priority, order book (heaps/TreeMap), single-threaded matching per symbol, partial fills | ✅ |
-| 13 | [Leaderboard](src/problems/extras/leaderboard/) | Sorted structures, tie-breaking, frequent updates | ☐ |
+| 13 | [Leaderboard](src/problems/extras/leaderboard/) | Sorted structures, tie-breaking, frequent updates | ✅ |
 | 14 | [Chess](src/problems/extras/chess/) | Composition vs inheritance for pieces, move validation, Command for undo | ☐ |
 | 15 | [Snake & Ladder / Tic-Tac-Toe](src/problems/extras/snakeladder/) | Game loop, rules separated from board | ☐ |
 | 16 | [Pizza / Coffee Ordering](src/problems/extras/pizzaordering/) | Builder + Decorator | ☐ |
