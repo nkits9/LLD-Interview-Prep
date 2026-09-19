@@ -88,3 +88,4 @@ javac $(find problems/p03_parkinglot -name '*.java') && java problems.p03_parkin
 - New revision docs are copied from [templates/](templates/) so every doc has the same shape.
 - Every `Demo` exercises one happy path **and one failure path** (per the [done-checklist](docs/interview-playbook.md#done-checklist--before-calling-any-problem-complete)).
 - No frameworks, no dependencies — plain Java, exactly what you'd write in an interview.
+- Adding a new pattern/problem/concept? The workflow, structure, and quality bar are encoded as a Claude Code skill: [.claude/skills/add-lld-item/SKILL.md](.claude/skills/add-lld-item/SKILL.md) — auto-loaded in any Claude Code session in this repo.
