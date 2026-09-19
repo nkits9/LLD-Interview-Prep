@@ -38,7 +38,7 @@ Recognize-only (no code, by design): Template Method, Facade, Adapter, Visitor �
 |---|---------|------------------------|:------:|
 | 1 | [Connect Four](src/problems/p01_connectfour/) | The interview process itself; rules behind an interface | ✅ |
 | 2 | [Amazon Locker](src/problems/p02_amazonlocker/) | Allocation Strategy, TTL expiry, per-locker locking | ✅ |
-| 3 | [Parking Lot](src/problems/p03_parkinglot/) | The template problem — Strategy + Factory, money, fine-grained locks | ☐ |
+| 3 | [Parking Lot](src/problems/p03_parkinglot/) | The template problem — Strategy + Factory, money, fine-grained locks | ✅ |
 | 4 | [Elevator](src/problems/p04_elevator/) | State machine, dispatch Strategy, bounded queues per car | ☐ |
 | 5 | [File System](src/problems/p05_filesystem/) | Composite, path handling, ReadWriteLock, lock ordering on move | ☐ |
 | 6 | [Movie Ticket Booking](src/problems/p06_movieticketbooking/) | Concurrency centrepiece — 2PL, reserve-with-TTL, idempotency, saga | ☐ |
