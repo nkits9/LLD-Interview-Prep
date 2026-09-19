@@ -53,7 +53,7 @@ Recognize-only (no code, by design): Template Method, Facade, Adapter, Visitor �
 
 | # | Problem | Key ideas | Status |
 |---|---------|-----------|:------:|
-| 1 | [Vending Machine](src/problems/extras/vendingmachine/) | The canonical State problem; change/refund handling | ☐ |
+| 1 | [Vending Machine](src/problems/extras/vendingmachine/) | The canonical State problem; change/refund handling | ✅ |
 | 2 | [LRU / LFU Cache](src/problems/extras/lrucache/) | Data structure + eviction Strategy + locking/striping, TTL | ☐ |
 | 3 | [Notification Service](src/problems/extras/notificationservice/) | Observer + Factory + Decorator, retry with backoff, fan-out futures | ☐ |
 | 4 | [Task Scheduler / Cron](src/problems/extras/taskscheduler/) | Priority queue, worker pool, retries, idempotent execution | ☐ |
