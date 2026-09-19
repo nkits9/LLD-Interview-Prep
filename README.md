@@ -28,7 +28,7 @@ Low-Level Design preparation for SDE3 interviews — design patterns and solved 
 | [Decorator](src/patterns/structural/decorator/) | Add behaviour by wrapping | ✅ |
 | [Chain of Responsibility](src/patterns/behavioral/chainofresponsibility/) | Pass a request along handlers | ✅ |
 | [Composite](src/patterns/structural/composite/) | Tree of uniform nodes | ✅ |
-| [Memento](src/patterns/behavioral/memento/) | Snapshot and restore | ☐ |
+| [Memento](src/patterns/behavioral/memento/) | Snapshot and restore | ✅ |
 
 Recognize-only (no code, by design): Template Method, Facade, Adapter, Visitor → [one-liners in the cheatsheet](docs/patterns-cheatsheet.md#recognize-only-patterns).
 
