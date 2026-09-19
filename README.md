@@ -55,7 +55,7 @@ Recognize-only (no code, by design): Template Method, Facade, Adapter, Visitor �
 |---|---------|-----------|:------:|
 | 1 | [Vending Machine](src/problems/extras/vendingmachine/) | The canonical State problem; change/refund handling | ✅ |
 | 2 | [LRU / LFU Cache](src/problems/extras/lrucache/) | Data structure + eviction Strategy + locking/striping, TTL | ✅ |
-| 3 | [Notification Service](src/problems/extras/notificationservice/) | Observer + Factory + Decorator, retry with backoff, fan-out futures | ☐ |
+| 3 | [Notification Service](src/problems/extras/notificationservice/) | Observer + Factory + Decorator, retry with backoff, fan-out futures | ✅ |
 | 4 | [Task Scheduler / Cron](src/problems/extras/taskscheduler/) | Priority queue, worker pool, retries, idempotent execution | ☐ |
 | 5 | [Meeting Room Scheduler](src/problems/extras/meetingscheduler/) | Interval conflicts, allocation | ☐ |
 | 6 | [Hotel Booking](src/problems/extras/hotelbooking/) | Overlapping date ranges, inventory per room type, concurrency | ☐ |
