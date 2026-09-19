@@ -18,7 +18,7 @@ Low-Level Design preparation for SDE3 interviews — design patterns and solved 
 
 | Pattern | Solves | Status |
 |---------|--------|:------:|
-| [Strategy](src/patterns/behavioral/strategy/) | A rule/algorithm that varies — pricing, allocation, matching, splitting | ☐ |
+| [Strategy](src/patterns/behavioral/strategy/) | A rule/algorithm that varies — pricing, allocation, matching, splitting | ✅ |
 | [State](src/patterns/behavioral/state/) | Behaviour differs by lifecycle stage; kills the giant switch | ☐ |
 | [Observer](src/patterns/behavioral/observer/) | Notify many on a change | ☐ |
 | [Factory](src/patterns/creational/factory/) | Create objects by type without if-else (incl. Abstract Factory) | ☐ |
