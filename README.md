@@ -41,7 +41,7 @@ Recognize-only (no code, by design): Template Method, Facade, Adapter, Visitor �
 | 3 | [Parking Lot](src/problems/p03_parkinglot/) | The template problem — Strategy + Factory, money, fine-grained locks | ✅ |
 | 4 | [Elevator](src/problems/p04_elevator/) | State machine, dispatch Strategy, bounded queues per car | ✅ |
 | 5 | [File System](src/problems/p05_filesystem/) | Composite, path handling, ReadWriteLock, lock ordering on move | ✅ |
-| 6 | [Movie Ticket Booking](src/problems/p06_movieticketbooking/) | Concurrency centrepiece — 2PL, reserve-with-TTL, idempotency, saga | ☐ |
+| 6 | [Movie Ticket Booking](src/problems/p06_movieticketbooking/) | Concurrency centrepiece — 2PL, reserve-with-TTL, idempotency, saga | ✅ |
 | 7 | [Logging Service](src/problems/p07_loggingservice/) | Chain of Responsibility, producer-consumer, graceful shutdown | ☐ |
 | 8 | [Rate Limiter](src/problems/p08_ratelimiter/) | Limiting algorithms, CAS loops, lock striping, clock injection | ☐ |
 | 9 | [Inventory Management](src/problems/p09_inventory/) | Optimistic locking, reserved-vs-committed stock, event ledger | ☐ |
