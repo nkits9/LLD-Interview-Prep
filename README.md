@@ -49,7 +49,29 @@ Recognize-only (no code, by design): Template Method, Facade, Adapter, Visitor �
 | 11 | [Food Delivery](src/problems/p11_fooddelivery/) | Event-driven lifecycle, CAS assignment, timeouts, refunds | ☐ |
 | 12 | [Text Editor](src/problems/p12_texteditor/) | Command + Memento, undo/redo stacks, macro commands | ☐ |
 
-Additional problems (after the core 12): see [LLD.md §5](LLD.md) — they land under `src/problems/extras/`.
+## ➕ Additional problems (after the core 12 — design fully, code at least partially)
+
+| # | Problem | Key ideas | Status |
+|---|---------|-----------|:------:|
+| 1 | [Vending Machine](src/problems/extras/vendingmachine/) | The canonical State problem; change/refund handling | ☐ |
+| 2 | [LRU / LFU Cache](src/problems/extras/lrucache/) | Data structure + eviction Strategy + locking/striping, TTL | ☐ |
+| 3 | [Notification Service](src/problems/extras/notificationservice/) | Observer + Factory + Decorator, retry with backoff, fan-out futures | ☐ |
+| 4 | [Task Scheduler / Cron](src/problems/extras/taskscheduler/) | Priority queue, worker pool, retries, idempotent execution | ☐ |
+| 5 | [Meeting Room Scheduler](src/problems/extras/meetingscheduler/) | Interval conflicts, allocation | ☐ |
+| 6 | [Hotel Booking](src/problems/extras/hotelbooking/) | Overlapping date ranges, inventory per room type, concurrency | ☐ |
+| 7 | [Cab Booking (Uber-lite)](src/problems/extras/cabbooking/) | Matching Strategy, trip State, surge pricing | ☐ |
+| 8 | [Payment Gateway / Wallet](src/problems/extras/paymentgateway/) | Idempotency, ledger, state machine, reconciliation, saga | ☐ |
+| 9 | [Connection / Object Pool](src/problems/extras/connectionpool/) | Semaphore, blocking acquire with timeout, health checks | ☐ |
+| 10 | [Pub-Sub / Message Queue](src/problems/extras/pubsub/) | Topics, consumer groups, offsets, at-least-once delivery | ☐ |
+| 11 | [Stock Exchange / Order Matching](src/problems/extras/stockexchange/) | Price-time priority, order book (heaps/TreeMap), single-threaded matching per symbol, partial fills | ☐ |
+| 12 | [Leaderboard](src/problems/extras/leaderboard/) | Sorted structures, tie-breaking, frequent updates | ☐ |
+| 13 | [Chess](src/problems/extras/chess/) | Composition vs inheritance for pieces, move validation, Command for undo | ☐ |
+| 14 | [Snake & Ladder / Tic-Tac-Toe](src/problems/extras/snakeladder/) | Game loop, rules separated from board | ☐ |
+| 15 | [Pizza / Coffee Ordering](src/problems/extras/pizzaordering/) | Builder + Decorator | ☐ |
+| 16 | [Library Management](src/problems/extras/librarymanagement/) | CRUD, Repository, reservations, fines | ☐ |
+| 17 | [Poker / Blackjack / Monopoly](src/problems/extras/cardgames/) | Many entities, rule engines | ☐ |
+
+Details in [LLD.md §5](LLD.md). Ordered roughly by interview frequency and concept payoff — the first ~9 are the highest-value after the core 12.
 
 ## Running a demo
 
