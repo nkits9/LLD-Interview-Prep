@@ -23,7 +23,7 @@ Plain Java, no build tool, no dependencies. `src` is the sources root. One publi
 ## Workflow: new design pattern
 
 1. **Pick a domain that feeds the core 12 problems** (pricing → Parking Lot, order lifecycle → Food Delivery, notifier → Logging). Never `Foo`/`Bar`.
-2. **Interview-sized**: the core must be writable from memory in ~3 minutes. Interface → 2 concrete impls → context/client → `Demo.java`.
+2. **Interview-sized**: the core must be writable from memory in ~3 minutes. Interface → 2 concrete impls → context/client → `Demo.java`. The structure must match the canonical GoF / refactoring.guru shape — interviewers pattern-match against it; any deviation needs a stated reason in the README.
 3. **Demo must show**: the swap/composition that justifies the pattern, AND one failure path (specific exception, retry exhausted, illegal state).
 4. **README from [templates/PATTERN_DOC_TEMPLATE.md](../../../templates/PATTERN_DOC_TEMPLATE.md)** — all sections:
    - the one-line "solves", when to use / when NOT (pattern-stuffing red flag), and the **say-aloud sentence** ("X will vary, so...; if it wouldn't, Y is simpler")
@@ -34,14 +34,15 @@ Plain Java, no build tool, no dependencies. `src` is the sources root. One publi
 ## Workflow: new problem
 
 1. **Read the problem's LLD.md section** — patterns, concurrency, must-covers, extension. That's the scope; don't invent more.
-2. **Scope in the README first**: 3–5 in-scope features, explicit out-of-scope list, 5–8 clarifying questions you'd ask.
-3. **Code in interview order**: enums → models/entities → interfaces → strategy impls → services → thin `Demo` driver. Get one vertical slice working before covering everything.
-4. **Patterns only where the roadmap/change-vector justifies them**; record the one-sentence why in README §4, and record deliberate NON-uses ("no Factory for 2 players — pattern stuffing").
-5. **Concurrency is code, not commentary** where the roadmap says so (lock per locker, CAS on assignment, bounded queue). Name shared state, lock granularity, and trade-off in README §5.
-6. **Every must-cover from LLD.md is in code** with a specific exception or visible behavior.
-7. **Demo**: happy path AND at least one failure path (full lot, payment failure, illegal transition). No business logic in the driver.
-8. **README from [templates/PROBLEM_DOC_TEMPLATE.md](../../../templates/PROBLEM_DOC_TEMPLATE.md)** — all 9 sections, mermaid entity diagram, only the tricky 2–3 code snippets, extension answers, 5 follow-up Q&As.
-9. Apply the [done-checklist](../../../docs/interview-playbook.md#done-checklist--before-calling-any-problem-complete) before calling it complete.
+2. **Validate the approach BEFORE coding (mandatory).** One solution has multiple approaches; only the interview-consensus one is acceptable. Web-search how the standard references solve it — `ashishps1/awesome-low-level-design` (check `problems/<name>.md` and `solutions/java/src/<name>`), Hello Interview / AlgoMaster LLD write-ups, refactoring.guru for pattern shapes — and implement that consensus design. Where a known optimal data structure/algorithm exists, it IS the expected answer — use it and state its complexity in the README (examples: last-move-only win check for board games; HashMap + doubly-linked list for O(1) LRU; TreeMap/heaps with price-time priority for order books; min-cash-flow graph settlement for Splitwise; lazy refill + CAS for token buckets). If credible references diverge, pick the approach LLD.md implies and record the alternative and why in the README's "Approach vs alternatives" line and follow-up Q&A.
+3. **Scope in the README first**: 3–5 in-scope features, explicit out-of-scope list, 5–8 clarifying questions you'd ask.
+4. **Code in interview order**: enums → models/entities → interfaces → strategy impls → services → thin `Demo` driver. Get one vertical slice working before covering everything.
+5. **Patterns only where the roadmap/change-vector justifies them**; record the one-sentence why in README §4, and record deliberate NON-uses ("no Factory for 2 players — pattern stuffing").
+6. **Concurrency is code, not commentary** where the roadmap says so (lock per locker, CAS on assignment, bounded queue). Name shared state, lock granularity, and trade-off in README §5.
+7. **Every must-cover from LLD.md is in code** with a specific exception or visible behavior.
+8. **Demo**: happy path AND at least one failure path (full lot, payment failure, illegal transition). No business logic in the driver.
+9. **README from [templates/PROBLEM_DOC_TEMPLATE.md](../../../templates/PROBLEM_DOC_TEMPLATE.md)** — all sections, mermaid entity diagram, the "Approach vs alternatives" line, only the tricky 2–3 code snippets, extension answers, 5 follow-up Q&As.
+10. Apply the [done-checklist](../../../docs/interview-playbook.md#done-checklist--before-calling-any-problem-complete) before calling it complete.
 
 ## Workflow: new concept doc
 

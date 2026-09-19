@@ -33,6 +33,8 @@ classDiagram
 |---------|-------|------------------------------|
 | <Strategy> | <PricingStrategy> | <"pricing rules will vary"> |
 
+**Approach vs alternatives:** <the interview-consensus approach chosen (with complexity if relevant), the main alternative an interviewer might raise, and why this one wins — e.g., "last-move win check O(k) vs full-board scan O(n²)">.
+
 ## 5. Concurrency
 
 - **Shared state:** <what two threads fight over>
