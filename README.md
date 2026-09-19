@@ -46,7 +46,7 @@ Recognize-only (no code, by design): Template Method, Facade, Adapter, Visitor �
 | 8 | [Rate Limiter](src/problems/p08_ratelimiter/) | Limiting algorithms, CAS loops, lock striping, clock injection | ✅ |
 | 9 | [Inventory Management](src/problems/p09_inventory/) | Optimistic locking, reserved-vs-committed stock, event ledger | ✅ |
 | 10 | [Splitwise](src/problems/p10_splitwise/) | Money correctness, deterministic rounding, debt simplification | ✅ |
-| 11 | [Food Delivery](src/problems/p11_fooddelivery/) | Event-driven lifecycle, CAS assignment, timeouts, refunds | ☐ |
+| 11 | [Food Delivery](src/problems/p11_fooddelivery/) | Event-driven lifecycle, CAS assignment, timeouts, refunds | ✅ |
 | 12 | [Text Editor](src/problems/p12_texteditor/) | Command + Memento, undo/redo stacks, macro commands | ☐ |
 
 ## ➕ Additional problems (after the core 12 — design fully, code at least partially)
