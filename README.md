@@ -63,7 +63,7 @@ Recognize-only (no code, by design): Template Method, Facade, Adapter, Visitor �
 | 8 | [IRCTC Train Booking](src/problems/extras/irctc/) | Seat×segment inventory (bitmask), seat reuse across intermediate stations, fair per-run lock | ✅ |
 | 9 | [Payment Gateway / Wallet](src/problems/extras/paymentgateway/) | Idempotency, ledger, state machine, reconciliation, saga | ✅ |
 | 10 | [Connection / Object Pool](src/problems/extras/connectionpool/) | Semaphore, blocking acquire with timeout, health checks | ✅ |
-| 11 | [Pub-Sub / Message Queue](src/problems/extras/pubsub/) | Topics, consumer groups, offsets, at-least-once delivery | ☐ |
+| 11 | [Pub-Sub / Message Queue](src/problems/extras/pubsub/) | Topics, consumer groups, offsets, at-least-once delivery | ✅ |
 | 12 | [Stock Exchange / Order Matching](src/problems/extras/stockexchange/) | Price-time priority, order book (heaps/TreeMap), single-threaded matching per symbol, partial fills | ☐ |
 | 13 | [Leaderboard](src/problems/extras/leaderboard/) | Sorted structures, tie-breaking, frequent updates | ☐ |
 | 14 | [Chess](src/problems/extras/chess/) | Composition vs inheritance for pieces, move validation, Command for undo | ☐ |
