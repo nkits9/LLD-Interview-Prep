@@ -26,7 +26,7 @@ Low-Level Design preparation for SDE3 interviews — design patterns and solved 
 | [Singleton](src/patterns/creational/singleton/) | One shared instance — know the thread-safe forms and the criticism | ✅ |
 | [Command](src/patterns/behavioral/command/) | Encapsulate an action; undo/redo | ✅ |
 | [Decorator](src/patterns/structural/decorator/) | Add behaviour by wrapping | ✅ |
-| [Chain of Responsibility](src/patterns/behavioral/chainofresponsibility/) | Pass a request along handlers | ☐ |
+| [Chain of Responsibility](src/patterns/behavioral/chainofresponsibility/) | Pass a request along handlers | ✅ |
 | [Composite](src/patterns/structural/composite/) | Tree of uniform nodes | ☐ |
 | [Memento](src/patterns/behavioral/memento/) | Snapshot and restore | ☐ |
 
