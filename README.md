@@ -59,7 +59,7 @@ Recognize-only (no code, by design): Template Method, Facade, Adapter, Visitor �
 | 4 | [Task Scheduler / Cron](src/problems/extras/taskscheduler/) | Priority queue, worker pool, retries, idempotent execution | ✅ |
 | 5 | [Meeting Room Scheduler](src/problems/extras/meetingscheduler/) | Interval conflicts, allocation | ✅ |
 | 6 | [Hotel Booking](src/problems/extras/hotelbooking/) | Overlapping date ranges, inventory per room type, concurrency | ✅ |
-| 7 | [Cab Booking (Uber-lite)](src/problems/extras/cabbooking/) | Matching Strategy, trip State, surge pricing | ☐ |
+| 7 | [Cab Booking (Uber-lite)](src/problems/extras/cabbooking/) | Matching Strategy, trip State, surge pricing | ✅ |
 | 8 | [IRCTC Train Booking](src/problems/extras/irctc/) | Seat×segment inventory (bitmask), seat reuse across intermediate stations, fair per-run lock | ✅ |
 | 9 | [Payment Gateway / Wallet](src/problems/extras/paymentgateway/) | Idempotency, ledger, state machine, reconciliation, saga | ☐ |
 | 10 | [Connection / Object Pool](src/problems/extras/connectionpool/) | Semaphore, blocking acquire with timeout, health checks | ☐ |
