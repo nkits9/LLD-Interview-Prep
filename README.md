@@ -22,7 +22,7 @@ Low-Level Design preparation for SDE3 interviews — design patterns and solved 
 | [State](src/patterns/behavioral/state/) | Behaviour differs by lifecycle stage; kills the giant switch | ✅ |
 | [Observer](src/patterns/behavioral/observer/) | Notify many on a change | ✅ |
 | [Factory](src/patterns/creational/factory/) | Create objects by type without if-else (incl. Abstract Factory) | ✅ |
-| [Builder](src/patterns/creational/builder/) | Objects with many optional fields | ☐ |
+| [Builder](src/patterns/creational/builder/) | Objects with many optional fields | ✅ |
 | [Singleton](src/patterns/creational/singleton/) | One shared instance — know the thread-safe forms and the criticism | ☐ |
 | [Command](src/patterns/behavioral/command/) | Encapsulate an action; undo/redo | ☐ |
 | [Decorator](src/patterns/structural/decorator/) | Add behaviour by wrapping | ☐ |
