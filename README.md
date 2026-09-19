@@ -60,16 +60,17 @@ Recognize-only (no code, by design): Template Method, Facade, Adapter, Visitor �
 | 5 | [Meeting Room Scheduler](src/problems/extras/meetingscheduler/) | Interval conflicts, allocation | ☐ |
 | 6 | [Hotel Booking](src/problems/extras/hotelbooking/) | Overlapping date ranges, inventory per room type, concurrency | ☐ |
 | 7 | [Cab Booking (Uber-lite)](src/problems/extras/cabbooking/) | Matching Strategy, trip State, surge pricing | ☐ |
-| 8 | [Payment Gateway / Wallet](src/problems/extras/paymentgateway/) | Idempotency, ledger, state machine, reconciliation, saga | ☐ |
-| 9 | [Connection / Object Pool](src/problems/extras/connectionpool/) | Semaphore, blocking acquire with timeout, health checks | ☐ |
-| 10 | [Pub-Sub / Message Queue](src/problems/extras/pubsub/) | Topics, consumer groups, offsets, at-least-once delivery | ☐ |
-| 11 | [Stock Exchange / Order Matching](src/problems/extras/stockexchange/) | Price-time priority, order book (heaps/TreeMap), single-threaded matching per symbol, partial fills | ☐ |
-| 12 | [Leaderboard](src/problems/extras/leaderboard/) | Sorted structures, tie-breaking, frequent updates | ☐ |
-| 13 | [Chess](src/problems/extras/chess/) | Composition vs inheritance for pieces, move validation, Command for undo | ☐ |
-| 14 | [Snake & Ladder / Tic-Tac-Toe](src/problems/extras/snakeladder/) | Game loop, rules separated from board | ☐ |
-| 15 | [Pizza / Coffee Ordering](src/problems/extras/pizzaordering/) | Builder + Decorator | ☐ |
-| 16 | [Library Management](src/problems/extras/librarymanagement/) | CRUD, Repository, reservations, fines | ☐ |
-| 17 | [Poker / Blackjack / Monopoly](src/problems/extras/cardgames/) | Many entities, rule engines | ☐ |
+| 8 | [IRCTC Train Booking](src/problems/extras/irctc/) | Seat×segment inventory (bitmask), seat reuse across intermediate stations, fair per-run lock | ✅ |
+| 9 | [Payment Gateway / Wallet](src/problems/extras/paymentgateway/) | Idempotency, ledger, state machine, reconciliation, saga | ☐ |
+| 10 | [Connection / Object Pool](src/problems/extras/connectionpool/) | Semaphore, blocking acquire with timeout, health checks | ☐ |
+| 11 | [Pub-Sub / Message Queue](src/problems/extras/pubsub/) | Topics, consumer groups, offsets, at-least-once delivery | ☐ |
+| 12 | [Stock Exchange / Order Matching](src/problems/extras/stockexchange/) | Price-time priority, order book (heaps/TreeMap), single-threaded matching per symbol, partial fills | ☐ |
+| 13 | [Leaderboard](src/problems/extras/leaderboard/) | Sorted structures, tie-breaking, frequent updates | ☐ |
+| 14 | [Chess](src/problems/extras/chess/) | Composition vs inheritance for pieces, move validation, Command for undo | ☐ |
+| 15 | [Snake & Ladder / Tic-Tac-Toe](src/problems/extras/snakeladder/) | Game loop, rules separated from board | ☐ |
+| 16 | [Pizza / Coffee Ordering](src/problems/extras/pizzaordering/) | Builder + Decorator | ☐ |
+| 17 | [Library Management](src/problems/extras/librarymanagement/) | CRUD, Repository, reservations, fines | ☐ |
+| 18 | [Poker / Blackjack / Monopoly](src/problems/extras/cardgames/) | Many entities, rule engines | ☐ |
 
 Details in [LLD.md §5](LLD.md). Ordered roughly by interview frequency and concept payoff — the first ~9 are the highest-value after the core 12.
 
