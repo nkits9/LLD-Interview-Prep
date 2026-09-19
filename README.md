@@ -70,7 +70,7 @@ Recognize-only (no code, by design): Template Method, Facade, Adapter, Visitor �
 | 15 | [Snake & Ladder / Tic-Tac-Toe](src/problems/extras/snakeladder/) | Game loop, rules separated from board | ✅ |
 | 16 | [Pizza / Coffee Ordering](src/problems/extras/pizzaordering/) | Builder + Decorator | ✅ |
 | 17 | [Library Management](src/problems/extras/librarymanagement/) | CRUD, Repository, reservations, fines | ✅ |
-| 18 | [Poker / Blackjack / Monopoly](src/problems/extras/cardgames/) | Many entities, rule engines | ☐ |
+| 18 | [Poker / Blackjack / Monopoly](src/problems/extras/cardgames/) | Many entities, rule engines | ✅ |
 
 Details in [LLD.md §5](LLD.md). Ordered roughly by interview frequency and concept payoff — the first ~9 are the highest-value after the core 12.
 
